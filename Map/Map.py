@@ -12,3 +12,8 @@ def sq(n):
 square=list(map(sq,num3))
 print("Squares")
 print(square)
+
+def myfun(n):
+    return len(n)
+x=map(myfun,('apple','banana','orange','manggo'))
+print(list(x))
