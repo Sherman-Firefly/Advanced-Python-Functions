@@ -13,3 +13,8 @@ d2=[100,200,300]
 
 newd={d1:d2 for d1,d2 in zip(d1,d2)}
 print("\n",newd)
+
+a=('a','b','c','d')
+b=('apple', 'banana', 'cherry', 'durian')
+x=zip(a,b)
+print(list(x))
